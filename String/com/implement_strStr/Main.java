@@ -12,12 +12,8 @@ public class Main {
 		int n = needle.length();
 		if(m < n) return -1;
 		for(int i=0; i<m; i++) {
-			int j;
-			for(j=0; j<n; j++) {
-				if(haystack.charAt(i+j) != needle.charAt(j)) 
-					break;
-			}
-			if(j == n) return i;
+			if(haystack.substring(i, i+n).equals(needle))
+				return i;
 		}
 		return -1;
 	}
