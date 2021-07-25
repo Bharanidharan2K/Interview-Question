@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Arrays"/>
 	<classpathentry kind="src" path="String"/>
+	<classpathentry kind="src" path="Linked List"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
