@@ -6,5 +6,6 @@
 	<classpathentry kind="src" path="String"/>
 	<classpathentry kind="src" path="Linked List"/>
 	<classpathentry kind="src" path="Trees"/>
+	<classpathentry kind="src" path="Sorting and Searching"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
